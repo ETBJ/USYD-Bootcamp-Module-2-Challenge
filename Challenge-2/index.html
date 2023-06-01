@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- Start of Header -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="Develop/assets/css/style.css">
+</head>
+<!-- End of Header -->
+
+
+<!-- Start of Body -->
+<body>
+    <!-- Start of Header / developer's name-->
+  <header>
+    <h1>Victor Chan</h1> 
+    <!-- Start of Nav / links to sections-->
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Portfolio">Work Portfolio</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#Contact-Me">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- End of Nav -->
+  </header>
+  <!-- End of Header -->
+
+<!-- Main content-->
+<main>
+  <section id="Home" class="Home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates exercitationem nam quisquam eveniet in id enim nulla officia et soluta quas magni est odit culpa ad dicta, delectus explicabo cum.</p>
+  </section>
+
+  <section id="About" class="About">
+    <h2>About Me</h2>
+    <!-- Avatar -->
+    <img src="Develop/assets/images/V.jpg" alt="Coming Soon">
+    <!-- End of Avatar -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit velit pariatur vero fugiat, ut at necessitatibus consequatur quisquam deserunt rerum doloribus quasi accusamus modi libero beatae, corporis laboriosam? Animi, pariatur.
+    </p>
+  </section>
+
+  <section id="Portfolio" class="Portfolio">
+    <h2>Work Portfolio</h2>
+    <!-- Portfolio items / when hovered image will enlarger in size compared to others -->
+    <div class="big-Portfolio">
+      <!-- Project application deploy link -->
+      <a href="https://etbj.github.io/USYD-Bootcamp-Module-1-Challenge/">
+      <!-- Project application deploy link -->
+          <img src="Develop/assets/images/digital-marketing-meeting.png" alt="Project 1" class="thumbnail" height="100" width="100">
+          <h3>Horiseon</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aperiam quibusdam earum perferendis repellat, rerum facere et ratione eos saepe dolores asperiores laborum veritatis mollitia voluptas. Tempore facere aspernatur quo!</p>
+      </a>
+    </div>
+    <div class="gallery">
+      <div class="portfolio-item">
+        <!-- Project application deploy link -->
+        <a href="https://etbj.github.io/USYD-Bootcamp-Module-1-Challenge/">
+        <!-- Project application deploy link -->
+            <img src="Develop/assets/images/digital-marketing-meeting.png" alt="Project 1" class="thumbnail" height="100" width="100">
+            <h3>Horiseon</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aperiam quibusdam earum perferendis repellat, rerum facere et ratione eos saepe dolores asperiores laborum veritatis mollitia voluptas. Tempore facere aspernatur quo!</p>
+        </a>
+      </div>
+      <div class="portfolio-item">
+        <img src="Develop/assets/images/digital-marketing-meeting.png" alt="Project 1" class="thumbnail" height="100" width="100">
+        <h3>Project 1</h3>
+        <p>Description of Project 1.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="Develop/assets/images/digital-marketing-meeting.png" alt="Project 2" class="thumbnail" height="100" width="100">
+        <h3>Project 2</h3>
+        <p>Description of Project 2.</p>
+      </div>
+    </div>
+    <!-- End of Portfolio items-->
+  </section>
+
+  <section id="Resume" class="Resume">
+    <h2>Resume</h2>
+  </section>
+<!-- Contact -->
+  <section id="Contact-Me" class="Contact-Me">
+    <h2>Contact Me</h2>
+    <form action="submit.php" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+  <!-- End of Contacts -->
+</main>
+<!-- End of main content-->
+
+<!-- Aside / Extra INFO & Links -->
+<aside>
+    <section class="Git">
+        <h3>GitHUB</h3>
+        <a href="https://github.com/ETBJ">https://github.com/ETBJ</a>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta sit vero nemo quisquam perferendis, maiores praesentium maxime totam blanditiis? Harum illo consectetur minima impedit nam quaerat, in labore! Accusantium, sed.
+        </p>
+    </section>
+    <section class="Links">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://github.com/ETBJ">Random Link</a></li>
+          <li><a href="https://github.com/ETBJ">Random Link</a></li>
+          <li><a href="https://github.com/ETBJ">Random Link</a></li>
+          <li><a href="https://github.com/ETBJ">Random Link</a></li>
+          <li><a href="https://github.com/ETBJ">Random Link</a></li>
+        </ul>
+    </section>
+    <section class="Product">
+        <h3>Products</h3>
+        <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quas eveniet, porro vitae autem cumque animi quasi sint expedita! Possimus, beatae quidem sunt animi perferendis aspernatur deserunt maiores et ducimus?        </p>
+    </section>
+</aside>
+<!-- End of Aside -->
+
+<!-- Start of Footer -->
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+<!-- End of Footer -->
+</body>
+</html>
